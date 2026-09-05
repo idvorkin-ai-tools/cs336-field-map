@@ -86,3 +86,18 @@ blockquote.q .cite a:hover{color:var(--def)}
 /* field-map addition: unclassed links inside the page body follow the accent, not browser blue */
 main a:not([class]){color:var(--def);text-decoration:underline;text-decoration-color:var(--ink-dim);text-underline-offset:2px;text-decoration-thickness:1px}
 main a:not([class]):hover{text-decoration-color:var(--def)}
+
+/* lecture + transcript pages (CS336 map) */
+.outline,.readings,.exercises{padding-left:1.25em;margin:14px 0 26px}
+.outline li,.readings li,.exercises li{margin:7px 0;line-height:1.6}
+.outline a,.readings a,.exercises a{color:var(--def);text-decoration:none;border-bottom:1px solid var(--ink-dim)}
+.outline a:hover,.readings a:hover,.exercises a:hover{border-bottom-color:var(--def)}
+.outline a{font-family:'IBM Plex Mono',monospace;font-size:12.5px}
+.code{display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px;margin-left:6px;border:1px solid var(--def);color:var(--def);border-radius:3px;vertical-align:middle}
+.transcript p{margin:0 0 16px;line-height:1.75}
+.transcript h2{margin-top:40px}
+.transcript a.ts{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink-dim);text-decoration:none;margin-right:8px;border-bottom:1px solid transparent}
+.transcript a.ts:hover{color:var(--def);border-bottom-color:var(--def)}
+table.kv{border-collapse:collapse;width:100%;margin:14px 0 26px;font-size:14px}
+table.kv th,table.kv td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+table.kv th{font-family:'IBM Plex Mono',monospace;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim)}
